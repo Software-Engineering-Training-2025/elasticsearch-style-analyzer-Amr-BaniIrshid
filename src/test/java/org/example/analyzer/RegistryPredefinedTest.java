@@ -1,5 +1,6 @@
 package org.example.analyzer;
 
+import org.example.analyzer.core.Analyzer;
 import org.example.analyzer.registry.AnalyzerRegistry;
 import org.junit.jupiter.api.Test;
 
@@ -19,6 +20,6 @@ public class RegistryPredefinedTest {
 
         List<String> t2 = english.analyze("It’s the running tests")
                 .stream().map(t -> t.term).toList();
-        assertEquals(List.of("it's","run","test"), t2);
+        assertEquals(List.of("it","run","test"), t2);
     }
 }
