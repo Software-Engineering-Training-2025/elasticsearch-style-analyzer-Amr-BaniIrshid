@@ -1,6 +1,7 @@
 package org.example.analyzer;
 
-import org.example.analyzer.builder.AnalyzerBuilder;
+import org.example.analyzer.core.Analyzer;
+import org.example.analyzer.core.AnalyzerBuilder;
 import org.example.analyzer.enums.TokenFilterType;
 import org.example.analyzer.enums.TokenizerType;
 import org.junit.jupiter.api.Test;

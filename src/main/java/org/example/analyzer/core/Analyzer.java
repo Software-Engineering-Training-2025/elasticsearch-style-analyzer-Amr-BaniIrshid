@@ -1,4 +1,4 @@
-package org.example.analyzer;
+package org.example.analyzer.core;
 
 import java.util.List;
 
